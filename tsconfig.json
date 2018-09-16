@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+      "outDir": "./dist/",
+      "target": "es5",
+      "module": "es6",
+      "moduleResolution": "node",
+      "noImplicitAny": false,
+      "removeComments": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "baseUrl": "src",
+      "sourceMap": true,
+      "noUnusedParameters": true,
+      "noUnusedLocals": true,
+      "importHelpers": true,
+      "pretty": true,
+      "allowJs": true,
+      "paths": {
+          
+      },
+      "lib": [
+          "dom",
+          "es2017",
+          "es6",
+          "es5"
+      ]
+  },
+  "include": [
+      "./src/**/*"
+  ],
+  "exclude": [
+      "node_modules",
+      "dist"
+  ]
+
+}
